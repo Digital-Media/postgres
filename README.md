@@ -18,3 +18,7 @@ cd postgres
 ```  
 docker compose up -d
 ```  
+
+```  
+docker exec -it postgres /bin/bash -c "psql -U postgres"
+```  
